@@ -23,7 +23,7 @@ The repo consists of two main binaries:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/TheDeFiQuant/Solana-Historic-Data
-   cd tx_history_data
+   cd Solana-Historic-Data
    ```
 2. **Install the required dependencies:**  
    Ensure you have Rust and Cargo installed on your system. Then run:

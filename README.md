@@ -22,7 +22,7 @@ The repo consists of two main binaries:
 
 1. **Clone the repository:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/TheDeFiQuant/Solana-Historic-Data
    cd tx_history_data
    ```
 2. **Install the required dependencies:**  

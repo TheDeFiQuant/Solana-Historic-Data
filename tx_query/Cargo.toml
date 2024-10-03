@@ -1,14 +1,27 @@
 [package]
-name = "tx_query"
+name = "tx_history_data"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+default-run = "main"
 
 [dependencies]
-solana-client = "1.17.7"
-solana-sdk = "1.17.7"
-solana-transaction-status = "1.17.7"
-serde_json = "1.0"
-mongodb = "2.0"
+solana-client = "2.0.11"
+solana-sdk = "2.0.11"
+solana-transaction-status = "2.0.11"
+mongodb = "2.1.0"
 tokio = { version = "1.0", features = ["full"] }
+log = "0.4.22"
+env_logger = "0.9"
+serde_json = "1.0"
+futures = "0.3"
+dotenv = "0.15.0"
+flexi_logger = "0.29.1"
+
+
+[[bin]]
+name = "total_tx"
+path = "src/get_total_tx.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
